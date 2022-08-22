@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">GFN Queue Tracker</string>
+    <string name="text_view_url">URL</string>
+    <string name="edit_view_url">Edit server URL here</string>
+    <string name="text_view_alert_count">Alert count</string>
+    <string name="edit_view_alert_count">Edit remaining queue count to alerting user</string>
+    <string name="button_submit_setting">Start monitor</string>
+    <string name="str_input_not_valid_format">Input is not valid: %s</string>
+    <string name="text_view_message_title">Message:</string>
+    <string name="text_view_message">Fetching...</string>
+    <string name="text_view_monitor_title">Current queue:</string>
+    <string name="text_view_count_default">Fetching...</string>
+    <string name="button_monitor_return">Stop monitoring</string>
+    <string name="key_setting_url">com.example.gfnqueuetracker.KEY_URL</string>
+    <string name="key_setting_alertcount">com.example.gfnqueuetracker.KEY_ALERTCOUNT</string>
+    <string name="key_setting_vibrate">com.example.gfnqueuetracker.KEY_VIBRATE</string>
+    <string name="error_msg_alertcount_negative">Alert count should be nonnegative.</string>
+    <string name="channel_default_name">Default channel</string>
+    <string name="channel_default_description">Default channel for notification.</string>
+    <string name="channel_high_name">High channel</string>
+    <string name="channel_high_description">High channel to alert user</string>
+    <string name="str_alert_count">GFN queue count reached below %s.</string>
+    <string name="str_alert_achieved">Alert achieved!</string>
+    <string name="button_goto_vpn">VPN Setting</string>
+    <string name="button_goto_request">Requests List</string>
+    <string name="dialog_request_warning">Are you sure about that?</string>
+    <string name="dialog_request_yes">Yes</string>
+    <string name="dialog_request_no">No</string>
+    <string name="text_view_request_url">URL</string>
+    <string name="button_request_submit">Submit</string>
+    <string name="key_gfnopener">com.example.gfnqueuetracker.GFNOPENER</string>
+    <string name="name_gfnopener">GFN Opener</string>
+    <string name="text_view_history_title">History:</string>
+    <string name="text_view_history">Fetching...</string>
+    <string name="key_tvopener">com.example.gfnqueuetracker.TVOPENER</string>
+    <string name="name_tvopener">TeamViewer Opener</string>
+
+    <string name="text_view_viberate">Vibrate when alarm</string>
+</resources>

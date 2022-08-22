@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MonitorActivity">
+
+  <TextView
+      android:id="@+id/textView_count"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="16dp"
+      android:layout_marginEnd="16dp"
+      android:layout_marginBottom="16dp"
+      android:text="@string/text_view_count_default"
+      android:textSize="48sp"
+      app:layout_constraintBottom_toTopOf="@+id/textView_message"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.489"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintVertical_chainStyle="spread" />
+
+  <TextView
+      android:id="@+id/textView_message_title"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="16dp"
+      android:layout_marginEnd="16dp"
+      android:text="@string/text_view_message_title"
+      app:layout_constraintBaseline_toBaselineOf="@+id/textView_message"
+      app:layout_constraintEnd_toStartOf="@+id/textView_message"
+      app:layout_constraintHorizontal_bias="0.501"
+      app:layout_constraintStart_toStartOf="parent" />
+
+  <TextView
+      android:id="@+id/textView_message"
+      android:layout_width="0dp"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="16dp"
+      android:layout_marginEnd="16dp"
+      android:layout_marginBottom="205dp"
+      android:text="@string/text_view_message"
+      app:layout_constraintBottom_toTopOf="@+id/button_return"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.5"
+      app:layout_constraintStart_toEndOf="@+id/textView_message_title"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.819" />
+
+  <TextView
+      android:id="@+id/textView_monitor_title"
+      android:layout_width="wrap_content"
+      android:layout_height="19dp"
+      android:layout_marginBottom="16dp"
+      android:text="@string/text_view_monitor_title"
+      app:layout_constraintBottom_toTopOf="@+id/textView_count"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.498"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintVertical_chainStyle="packed" />
+
+  <Button
+      android:id="@+id/button_return"
+      android:layout_width="0dp"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="16dp"
+      android:layout_marginEnd="16dp"
+      android:layout_marginBottom="16dp"
+      android:onClick="onClickStop"
+      android:text="@string/button_monitor_return"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent" />
+
+  <TextView
+      android:id="@+id/textView_history_title"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="16dp"
+      android:text="@string/text_view_history_title"
+      app:layout_constraintBaseline_toBaselineOf="@+id/textView_history"
+      app:layout_constraintEnd_toStartOf="@+id/textView_history"
+      app:layout_constraintHorizontal_bias="0.5"
+      app:layout_constraintStart_toStartOf="parent" />
+
+  <TextView
+      android:id="@+id/textView_history"
+      android:layout_width="0dp"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="16dp"
+      android:layout_marginTop="16dp"
+      android:layout_marginEnd="16dp"
+      android:text="@string/text_view_history"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.5"
+      app:layout_constraintStart_toEndOf="@+id/textView_history_title"
+      app:layout_constraintTop_toBottomOf="@+id/textView_message" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
